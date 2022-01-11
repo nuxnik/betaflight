@@ -78,6 +78,7 @@
 
 #include "osd/osd.h"
 #include "osd/osd_elements.h"
+#include "osd/osd_strings.h"
 
 #include "pg/motor.h"
 #include "pg/pg.h"
@@ -105,10 +106,10 @@ typedef enum {
 } osd_logo_on_arming_e;
 
 const char * const osdTimerSourceNames[] = {
-    "ON TIME  ",
-    "TOTAL ARM",
-    "LAST ARM ",
-    "ON/ARM   "
+    STR_ON_TIME,
+    STR_TOTAL_ARM,
+    STR_LAST_ARM,
+    STR_ON_ARM
 };
 
 // Things in both OSD and CMS
